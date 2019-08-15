@@ -1,0 +1,24 @@
+.greeting-container {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.greeting {
+   font-size: 50px!important;
+   color: #fff!important;
+   padding: 1% 0 4% 0!important;
+   font-weight: 700 !important;
+}
+
+.tjSmiley{
+  background: none;
+  width: 8%;
+  height: auto;
+  padding-top: 5%;
+}
+
+.tjSmiley img{
+  background: none;
+}

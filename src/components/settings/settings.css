@@ -1,0 +1,70 @@
+.settingsHolder{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+}
+
+.settings {
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+
+
+}
+
+#settings-button{
+right: 20px;
+z-index: 9999999999;
+}
+
+#settings-button:focus{
+  outline: none;
+}
+
+
+.name-button{
+  position: relative !important;
+  float: right;
+  top: 2px;
+  margin-left: 10px;
+}
+
+#settings{
+  transform: translateX(100%);
+transition: transform 1s;
+}
+.settings-active{
+   transform: translateX(-4%) !important;
+}
+input {
+   padding: 5px;
+   font-size: 12px;
+   width: 150px;
+   height: 20px;
+}
+
+form{
+  display: flex;
+}
+
+button {
+   height: 30px;
+   width: 70px;
+   background: none; /* This removes the default background */
+   color: white;
+   border: 1px solid white;
+   border-radius: 50px; /* This gives our button rounded edges */
+   font-size: 12px;
+   cursor: pointer;
+   position: absolute;
+top: 20px;
+
+}
+form {
+   padding-top: 80px;
+}
+
+label{
+  text-transform: none !important;
+}

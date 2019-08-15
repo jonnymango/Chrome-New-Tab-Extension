@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "TJ Tab",
+  "author": "Jonny Wright",
+  "version": "1.0.1",
+  "description": "",
+  "icons": {
+    "16": "16x16.png",
+    "48": "48x48.png",
+    "128": "128x128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage",
+    "http://media-dev.thinkjam.com",
+    "http://tank.thinkjam.com",
+    "http://thinkjam.com",
+    "https://media-dev.thinkjam.com",
+    "https://tank.thinkjam.com",
+    "https://thinkjam.com",
+    "https://news.thinkjam.com",
+    "http://*/*",
+        "https://*/*"
+      ]
+}
